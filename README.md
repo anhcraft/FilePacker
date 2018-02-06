@@ -6,8 +6,6 @@ How to use?
 
 Code (run in folder contains FilePacker.jar):
 
-java -Dfile.encoding=UTF-8 -Xmx1G -Xms1G -jar FilePacker.jar --input "" --output ""
-
 ### --input
 
 Use to declare sources folder which you want to pack together
@@ -28,7 +26,7 @@ Each placeholder separates by a vertical bar
 
 In each placeholder, there is a placeholder text and
 a directory of the file or a URL which you want to replace from, they 
-separates by a comma
+separate by a comma
 
 Example:
 

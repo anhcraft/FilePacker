@@ -13,5 +13,5 @@ The output folders. Each path separates by a comma
 **Example:**
 
 ```
-java -jar filepacker.jar --in "D:/Test/in" --input "D:/Games, D:/Music" --out "D:/Output"
+java -jar filepacker.jar --in "D:/Test/in" --in "D:/Games, D:/Music" --out "D:/Output"
 ```

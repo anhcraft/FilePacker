@@ -66,7 +66,12 @@ public class Main {
             int inc = 0;
             for(File inp : input) {
                 System.out.println(++inc + "/" + input.size() + "...");
-                FileUtil.copy(inp, f);
+                File out = f;
+                if(inp.isDirectory()) {
+                    out = new File(out, inp.getName());
+                    out.mkdir();
+                }
+                FileUtil.copy(inp, out);
             }
         }
         try {
